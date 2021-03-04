@@ -23,10 +23,12 @@ for (let i = 0; i < intNum; ++i) {
     let randNum = Math.floor(Math.random() * 3); 
     // console.log('randNum: ', randNum);
     let numChosen;
-    // TODO prompt for p, h, s
-    let rockPaperScissors = prompt(`Round ${i+1}: Please enter enter r for Rock, p for Paper, or s for Scissors.`);
+    
+    // No Checking of r, s, p
+   // let rockPaperScissors = prompt(`Round ${i+1}: Please enter enter r for Rock, p for Paper, or s for Scissors.`);
 
-     // let rockPaperScissors = checkRPS(i+1);
+    // With checking for r, s, p
+    let rockPaperScissors = checkRPS(i+1);
 
 
 
